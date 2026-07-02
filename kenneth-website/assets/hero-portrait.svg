@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 820" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract portrait composition</title>
+  <desc id="desc">A warm editorial portrait-style graphic for Kenneth Alcampado's personal website.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f2c84b"/>
+      <stop offset="0.48" stop-color="#e66f50"/>
+      <stop offset="1" stop-color="#1d7b73"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#20221f"/>
+      <stop offset="1" stop-color="#41573a"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="820" rx="0" fill="#fffaf1"/>
+  <path d="M0 120 C160 28 285 36 410 110 C535 184 612 162 720 92 L720 820 L0 820 Z" fill="url(#bg)"/>
+  <path d="M72 618 C150 514 236 466 332 474 C452 484 557 548 650 670 L650 820 L72 820 Z" fill="url(#shirt)"/>
+  <path d="M205 381 C184 291 203 218 263 165 C318 116 399 115 455 166 C517 223 536 303 511 405 C493 478 441 523 365 526 C285 529 224 479 205 381 Z" fill="#bd7656"/>
+  <path d="M214 330 C238 194 304 126 413 126 C490 142 538 205 557 315 C510 294 462 269 413 238 C363 276 296 306 214 330 Z" fill="#20221f"/>
+  <path d="M260 389 C297 430 338 451 383 452 C425 453 462 435 494 398 C483 477 436 522 365 526 C309 529 264 488 260 389 Z" fill="#a85f48" opacity=".34"/>
+  <path d="M298 398 C341 427 386 428 432 401" fill="none" stroke="#6f3d31" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="312" cy="333" r="11" fill="#20221f"/>
+  <circle cx="430" cy="333" r="11" fill="#20221f"/>
+  <path d="M360 340 L343 388 L380 388" fill="none" stroke="#85503e" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M125 126 L207 84 L236 159 L154 200 Z" fill="#1d7b73"/>
+  <path d="M544 72 L636 116 L586 204 L494 160 Z" fill="#d7a928"/>
+  <path d="M88 270 L152 254 L168 318 L104 334 Z" fill="#dc6b4b"/>
+  <path d="M562 362 L650 338 L674 426 L586 450 Z" fill="#fffaf1" opacity=".74"/>
+  <path d="M98 704 H250" stroke="#fffaf1" stroke-width="16" stroke-linecap="round" opacity=".8"/>
+  <path d="M470 704 H620" stroke="#fffaf1" stroke-width="16" stroke-linecap="round" opacity=".8"/>
+</svg>
