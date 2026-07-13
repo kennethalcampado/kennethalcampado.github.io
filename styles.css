@@ -431,6 +431,45 @@ h3 {
   color: var(--muted);
 }
 
+.systems-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.system-card {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  min-height: 250px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper-strong);
+  padding: 24px;
+}
+
+.system-card.wide {
+  grid-column: span 2;
+}
+
+.system-card span {
+  color: var(--teal-dark);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.system-card h3 {
+  font-size: clamp(1.12rem, 2vw, 1.38rem);
+  line-height: 1.12;
+}
+
+.system-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .split-section {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
@@ -603,10 +642,15 @@ h3 {
   .project-grid,
   .timeline-card,
   .credential-grid,
+  .systems-grid,
   .split-section,
   .about-section,
   .contact-section {
     grid-template-columns: 1fr;
+  }
+
+  .system-card.wide {
+    grid-column: auto;
   }
 
   .skill-row {
